@@ -38,7 +38,20 @@
                 <td><label>Andrea</label></td>
                 <td><label>Aquino</label></td>
             </tr>
+            
         </table>
         <a href="https://github.com/KarimeLizeth/VelazquezKarime">Este es mi repositorio</a>
+
+        <button id="Button">Haz clic en mí</button>
     </body>
+    <script>
+       
+        const mibotoncito = document.getElementsByTagName('Button');
+
+    
+        function decirHola() {
+           console.log("Hello world");
+        }
+        mibotoncito.item(0).addEventListener('mouseover',decirHola);
+    </script>
 </html>
